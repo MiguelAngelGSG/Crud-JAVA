@@ -1,1 +1,2 @@
 # Crud-JAVA
+Para promover la buena gestión del tiempo y la eficiencia en el ámbito personal, se ha propuesto la creación de un organizador de tareas en Java. Esta aplicación proporcionará a los usuarios una herramienta sencilla y efectiva para gestionar y hacer seguimiento de sus tareas diarias. Con una interfaz intuitiva y funcionalidades clave como la categorización de tareas, recordatorios y seguimiento del progreso, esta aplicación ayudará a los usuarios a mantenerse organizados, priorizar sus actividades y mejorar su productividad personal.
