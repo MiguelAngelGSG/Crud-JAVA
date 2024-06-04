@@ -48,6 +48,14 @@ public class Main {
                     scanner.close();
                 }
             }
+
+    private static void agregarTarea(List<String> tareas, String tarea) {
+        tareas.add(tarea);
+        System.out.println("Tarea agregada correctamente.");
+    }
+
+
+
     private static void listtask(List<String> tasks) {
         System.out.println("This is your list of tasks: ");
         for (int i = 0; i < tasks.size(); i++) {
