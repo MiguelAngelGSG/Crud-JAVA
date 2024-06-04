@@ -49,5 +49,13 @@ public class Main {
                 }
             }
             
+            private static void taskCompleted(List<String> tasks, int index) {
+                if (index >= 0 && index < tasks.size()) {
+                    tasks.set(index, "[COMPLETED] " + tasks.get(index));
+                    System.out.println("Task marked as completed.");
+                } else {
+                    System.out.println("Invalid index. The task does not exist.");
+                }
+            }  
                    
         }
