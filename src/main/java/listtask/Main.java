@@ -48,6 +48,10 @@ public class Main {
                     scanner.close();
                 }
             }
-            
+    private static void listtask(List<String> tasks) {
+        System.out.println("This is your list of tasks: ");
+        for (int i = 0; i < tasks.size(); i++) {
+            System.out.println(i + ". " + tasks.get(i));
+        }
                    
         }
