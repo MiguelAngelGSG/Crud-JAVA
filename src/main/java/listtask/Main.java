@@ -48,6 +48,13 @@ public class Main {
                     scanner.close();
                 }
             }
-            
+    private static void removeTask(List<String> task, int indexDelete) {
+        if (indexDelete >= 0 && indexDelete < task.size()) {
+            task.remove(indexDelete);
+            System.out.println("Task deleted successfully.");
+        } else {
+            System.out.println("Invalid index. The task does not exist.");
+        }
+    }
                    
         }
