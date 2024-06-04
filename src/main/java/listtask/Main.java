@@ -53,7 +53,7 @@ public class Main {
         for (int i = 0; i < tasks.size(); i++) {
             System.out.println(i + ". " + tasks.get(i));
         }
-<<<<<<< HEAD
+
 
             private static void taskCompleted(List<String> tasks, int index) {
                 if (index >= 0 && index < tasks.size()) {
@@ -63,7 +63,7 @@ public class Main {
                     System.out.println("Invalid index. The task does not exist.");
                 }
             }
-=======
+
     private static void removeTask(List<String> task, int indexDelete) {
         if (indexDelete >= 0 && indexDelete < task.size()) {
             task.remove(indexDelete);
@@ -72,6 +72,5 @@ public class Main {
             System.out.println("Invalid index. The task does not exist.");
         }
     }
->>>>>>> 6649f7c439ed29ef052e7aa399efc4afc820f641
 
         }
