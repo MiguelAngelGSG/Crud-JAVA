@@ -48,20 +48,27 @@ public class Main {
                     scanner.close();
                 }
             }
+            
+            private static void addTask(List<String> tasks, String task) {
+                tasks.add(task);
+                System.out.println("Task added successfully.");
+            }
 
-    private static void agregarTarea(List<String> tareas, String tarea) {
-        tareas.add(tarea);
-        System.out.println("Tarea agregada correctamente.");
-    }
+            private static void removeTask(List<String> tasks, int index) {
+                if (index >= 0 && index < tasks.size()) {
+                    tasks.remove(index);
+                    System.out.println("Task deleted successfully.");
+                } else {
+                    System.out.println("Invalid index. The task does not exist.");
+                }
+            }
 
-
-
-    private static void listtask(List<String> tasks) {
-        System.out.println("This is your list of tasks: ");
-        for (int i = 0; i < tasks.size(); i++) {
-            System.out.println(i + ". " + tasks.get(i));
-        }
-
+            private static void listTask(List<String> tasks) {
+                System.out.println("Things to do:");
+                for (int i = 0; i < tasks.size(); i++) {
+                    System.out.println(i + ". " + tasks.get(i));
+                }
+            }
 
             private static void taskCompleted(List<String> tasks, int index) {
                 if (index >= 0 && index < tasks.size()) {
@@ -70,15 +77,6 @@ public class Main {
                 } else {
                     System.out.println("Invalid index. The task does not exist.");
                 }
-            }
-
-    private static void removeTask(List<String> task, int indexDelete) {
-        if (indexDelete >= 0 && indexDelete < task.size()) {
-            task.remove(indexDelete);
-            System.out.println("Task deleted successfully.");
-        } else {
-            System.out.println("Invalid index. The task does not exist.");
-        }
-    }
-
+            } 
+                   
         }
